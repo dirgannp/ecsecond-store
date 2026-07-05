@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240" role="img" aria-labelledby="title desc">
+  <title id="title">QRIS payment placeholder</title>
+  <desc id="desc">Placeholder QRIS code for ECSECOND STORE payment.</desc>
+  <rect width="240" height="240" fill="#fff"/>
+  <rect x="10" y="10" width="220" height="220" rx="8" fill="#fff" stroke="#111" stroke-width="4"/>
+  <g fill="#111">
+    <rect x="25" y="25" width="54" height="54"/>
+    <rect x="161" y="25" width="54" height="54"/>
+    <rect x="25" y="161" width="54" height="54"/>
+    <rect x="37" y="37" width="30" height="30" fill="#fff"/>
+    <rect x="173" y="37" width="30" height="30" fill="#fff"/>
+    <rect x="37" y="173" width="30" height="30" fill="#fff"/>
+    <rect x="46" y="46" width="12" height="12"/>
+    <rect x="182" y="46" width="12" height="12"/>
+    <rect x="46" y="182" width="12" height="12"/>
+    <rect x="94" y="28" width="13" height="13"/>
+    <rect x="120" y="28" width="13" height="13"/>
+    <rect x="94" y="54" width="39" height="13"/>
+    <rect x="107" y="80" width="13" height="13"/>
+    <rect x="133" y="80" width="26" height="13"/>
+    <rect x="84" y="106" width="13" height="13"/>
+    <rect x="110" y="106" width="26" height="13"/>
+    <rect x="149" y="106" width="13" height="13"/>
+    <rect x="188" y="106" width="26" height="13"/>
+    <rect x="84" y="132" width="26" height="13"/>
+    <rect x="123" y="132" width="13" height="13"/>
+    <rect x="162" y="132" width="39" height="13"/>
+    <rect x="94" y="158" width="13" height="13"/>
+    <rect x="120" y="158" width="39" height="13"/>
+    <rect x="185" y="158" width="13" height="13"/>
+    <rect x="94" y="184" width="26" height="13"/>
+    <rect x="146" y="184" width="13" height="13"/>
+    <rect x="172" y="184" width="42" height="13"/>
+    <rect x="133" y="205" width="13" height="13"/>
+    <rect x="159" y="205" width="13" height="13"/>
+    <rect x="198" y="205" width="16" height="13"/>
+  </g>
+  <rect x="79" y="97" width="82" height="46" rx="6" fill="#fff"/>
+  <text x="120" y="117" fill="#111" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" text-anchor="middle">QRIS</text>
+  <text x="120" y="135" fill="#444" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700" text-anchor="middle">ECSECOND STORE</text>
+</svg>

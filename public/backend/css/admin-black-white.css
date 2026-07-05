@@ -1,0 +1,197 @@
+:root {
+  --mono-black: #111111;
+  --mono-dark: #2b2b2b;
+  --mono-mid: #6f6f6f;
+  --mono-line: #d9d9d9;
+  --mono-soft: #f2f2f2;
+  --mono-white: #ffffff;
+}
+
+body,
+#content-wrapper,
+#content {
+  background: #f4f4f4;
+  color: var(--mono-dark);
+}
+
+a,
+.text-primary,
+.text-success,
+.text-info,
+.text-warning,
+.text-danger,
+.page-link,
+.dropdown-item.active,
+.dropdown-item:active {
+  color: var(--mono-black) !important;
+}
+
+.bg-gradient-primary,
+.bg-primary,
+.bg-success,
+.bg-info,
+.bg-warning,
+.bg-danger,
+.badge-primary,
+.badge-success,
+.badge-info,
+.badge-warning,
+.badge-danger,
+.progress-bar,
+.icon-circle {
+  background: var(--mono-black) !important;
+  background-color: var(--mono-black) !important;
+  color: var(--mono-white) !important;
+}
+
+.sidebar {
+  background: var(--mono-black) !important;
+}
+
+.sidebar .sidebar-brand,
+.sidebar .nav-item .nav-link,
+.sidebar .nav-item .nav-link i,
+.sidebar .sidebar-heading {
+  color: rgba(255, 255, 255, 0.84) !important;
+}
+
+.sidebar .nav-item.active .nav-link,
+.sidebar .nav-item.active .nav-link i,
+.sidebar .nav-item .nav-link:hover,
+.sidebar .nav-item .nav-link:hover i {
+  color: var(--mono-white) !important;
+}
+
+.sidebar-divider {
+  border-top-color: rgba(255, 255, 255, 0.16) !important;
+}
+
+.topbar,
+.sticky-footer,
+.card,
+.dropdown-menu,
+.modal-content {
+  background: var(--mono-white) !important;
+  border-color: var(--mono-line) !important;
+}
+
+.shadow,
+.card.shadow,
+.topbar.shadow,
+.dropdown-menu.shadow {
+  box-shadow: 0 0.12rem 0.8rem rgba(17, 17, 17, 0.08) !important;
+}
+
+.card-header {
+  background: #fbfbfb !important;
+  border-bottom-color: var(--mono-line) !important;
+}
+
+.border-left-primary,
+.border-left-success,
+.border-left-info,
+.border-left-warning,
+.border-left-danger,
+.border-left-secondary,
+.border-left-light {
+  border-left-color: var(--mono-black) !important;
+}
+
+.btn-primary,
+.btn-success,
+.btn-info,
+.btn-warning,
+.btn-danger,
+.btn-outline-primary:hover,
+.btn-outline-success:hover,
+.btn-outline-info:hover,
+.btn-outline-warning:hover,
+.btn-outline-danger:hover {
+  background-color: var(--mono-black) !important;
+  border-color: var(--mono-black) !important;
+  color: var(--mono-white) !important;
+}
+
+.btn-primary:hover,
+.btn-success:hover,
+.btn-info:hover,
+.btn-warning:hover,
+.btn-danger:hover {
+  background-color: var(--mono-dark) !important;
+  border-color: var(--mono-dark) !important;
+}
+
+.btn-outline-primary,
+.btn-outline-success,
+.btn-outline-info,
+.btn-outline-warning,
+.btn-outline-danger {
+  color: var(--mono-black) !important;
+  border-color: var(--mono-black) !important;
+}
+
+.btn-link,
+.nav-link,
+.topbar .nav-item .nav-link,
+.text-gray-600,
+.text-gray-800 {
+  color: var(--mono-dark) !important;
+}
+
+.text-gray-300,
+.text-gray-400,
+.topbar .dropdown-list .dropdown-header {
+  color: var(--mono-mid) !important;
+}
+
+.bg-light,
+.progress {
+  background-color: var(--mono-soft) !important;
+}
+
+.form-control:focus,
+.custom-select:focus,
+.btn:focus,
+.btn.focus,
+.page-link:focus {
+  border-color: var(--mono-mid) !important;
+  box-shadow: 0 0 0 0.2rem rgba(17, 17, 17, 0.15) !important;
+}
+
+.page-item.active .page-link {
+  background-color: var(--mono-black) !important;
+  border-color: var(--mono-black) !important;
+  color: var(--mono-white) !important;
+}
+
+.alert-success,
+.alert-info,
+.alert-warning,
+.alert-danger,
+.alert-primary {
+  background: var(--mono-soft) !important;
+  border-color: var(--mono-line) !important;
+  color: var(--mono-black) !important;
+}
+
+.scroll-to-top,
+#sidebarToggle,
+#sidebarToggleTop {
+  background-color: var(--mono-black) !important;
+  color: var(--mono-white) !important;
+}
+
+.collapse-inner,
+.sidebar .collapse-inner {
+  background: var(--mono-white) !important;
+}
+
+.collapse-item:hover,
+.dropdown-item:hover {
+  background: var(--mono-soft) !important;
+  color: var(--mono-black) !important;
+}
+
+img {
+  filter: grayscale(100%);
+}
